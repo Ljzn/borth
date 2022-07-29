@@ -1,8 +1,12 @@
 defmodule BorthTest do
   use ExUnit.Case
+  import Borth, only: [sigil_B: 2]
   doctest Borth
 
-  test "greets the world" do
-    assert Borth.hello() == :world
+  test "hello world" do
+    ~B"""
+    : main 1 2 3 ;
+    """
+    |> IO.inspect()
   end
 end

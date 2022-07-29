@@ -1,3 +1,3 @@
 # Borth
 
-Bitcoin Script favour Forth.
+Bitcoin Script Flavoured Forth.
